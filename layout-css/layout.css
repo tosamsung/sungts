@@ -1,0 +1,355 @@
+body{   
+    font-family: "Arial", Arial, Helvetica, sans-serif;    
+    margin: 10px;                    
+    padding: 0px;
+    background-color: #f0f1f3;
+    height: 3050px;
+}
+header{
+    width: 100%;
+    height: 300px;
+    
+}
+nav{
+    width: 100%;
+}
+article{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding:0px 23px 10px 23px ;
+}
+.chonga{
+    width: 100%;
+}
+
+article p{
+    margin: 30px 0px 10px 0px ;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #0188c8;
+}
+article a{
+    text-decoration: none;
+}
+aside{
+    width: 50%;
+    height: 98.5%;   
+    float: left;
+   
+}
+.containslide{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    width: 465px;
+    height: 98.5%;   
+    box-sizing: border-box;
+    border: 10px solid #3099ca;
+    overflow: hidden;
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+
+.autoslide{
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+.autoslide img{
+    width: 100%;
+    height: 500px;
+}
+@keyframes slide {
+    0%{
+        transform: translatex(0);
+    }
+    25%{
+        transform: translatex(0);
+    }
+    30%{
+        transform: translatex(-100%);
+    }
+    50%{
+        transform: translatex(-100%);
+    }
+    55%{
+        transform: translatex(-200%);
+    }
+    75%{
+        transform: translatex(-200%);
+    }
+    80%{
+        transform: translatex(-300%);
+    }
+    
+    100%{
+        transform: translatex(-300%);
+    }
+    
+    
+}
+footer{
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    
+}
+footer p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main{
+    box-sizing: border-box;
+    margin: 0px auto;
+    box-shadow: 0px 0px 8px ;
+    background-color: #dfdbdb;
+    width: 950px;
+    height:100%px;
+    margin: 0px auto;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    
+}
+.tieude{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: normal;              
+    text-align: center;
+    margin-top: 0%;
+    width: 100%;
+}
+table{
+border-collapse: collapse;
+} 
+ul{
+    list-style: none;
+}
+#menu{
+    margin: 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+    height: 94%;
+    background-color: #0188c8;
+    
+
+}
+#menu li{         
+    float: left;
+    padding: 3px 0px;
+    margin: 0px;
+    border-right: 1px solid #ffffff;
+    font-size: 13px;
+    line-height: 23px;
+    border-left: 1px solid #ffffff;
+}
+#menu a{
+    padding: 9px 9px;              
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+}
+#row1{
+    height: 500px;
+}
+#xemgiovetau{
+    width: 100%;
+    height: 30px;
+    background-color: #dbd9d9;
+    border-bottom: 4px solid #0188c8;
+    text-align: center;
+    color: #0188c8;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+#xemgiovetau h2{
+    margin-top: 0px;
+    margin-right:170px;
+    font-size: 18px;
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+#xemgiovetau img{
+    float: left;
+}
+
+#row2-1{
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+#row2-1 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+#row2-1 h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    color: #0188c8;
+}
+#row2{
+    box-sizing: border-box;
+    
+    padding-top: 35px;
+    height: 200px;
+    background-color: #fff;
+ 
+}
+#row2-1 img{
+    float: left;
+    padding-bottom: 100px;
+}
+#row3{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+}
+#row3 p,h3,hr{
+    text-align: left;
+    margin-top:0px ;
+}
+#row3 video{
+    position: relative;
+    left: 120px;
+    width: 700px;
+    height: 400px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#khung1{                             
+    box-sizing: border-box;           
+    height: 500px;                                        
+    background-color: #746565;
+    padding: 20px 0px 0px 15px;
+}
+#khung1 td{
+    text-align: left;
+    color: #fff;  
+    width: 25%;             
+}
+#khung1 b{
+    color: rgb(126, 235, 99);
+}                    
+#bangga{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+} 
+#row4{
+    box-sizing: border-box;
+    padding: 50px 0px 0px 0px;
+    background-color: #746565;
+}
+#timtenga{
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+    height: 39px;
+    background-color: #e7e4e4;
+    border-radius: 7px 0px 0px 7px;
+    position: relative;
+    top: 12px;
+}
+#timtenga p{
+    padding: 12px 0px 10px 0px;
+    font-size: 16px;
+  
+    margin: 0px;
+    text-transform: uppercase;
+}
+#timkiem{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin: 0px auto;
+    width:110px;
+    height: 30px;
+    background-color: #0188c8;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#timkiem a{
+    position: relative;
+    top: 5px;
+    font-size: 19px;
+    color: #fff;
+ 
+    padding:5px 12.5px 5px 12.5px;
+}
+
+#input{
+    left: -4px;
+    top: 11px;
+    position: relative;
+    width: 78%;
+    height: 35px;
+    border-radius: 0px 7px 7px 0px;
+}
+.menu1:hover{
+    background-color: #f0a505;
+    box-shadow: 5px 5px;
+
+}
+#timkiem:hover{
+    background-color: #fd8c0a;
+    box-shadow: 5px 5px;
+}
+#timkiem a:hover{
+    color: #ffffff;
+}
+
+.box2{
+    text-align: center;
+    width: 40%;
+    height: 15px;
+}
+#timtenga:hover{
+    cursor: pointer;
+    background-color:#0188c8;
+}
+#timtenga p:hover{
+    color:#fff;
+}
+#bangga a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+#menu li ul{
+    position: absolute;
+    background-color: #f0a505;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 6px solid white;
+    border-top: 6px solid white;
+    display: none;
+}
+#menu li ul li{
+  float: none;
+  padding: 10px 0px;
+}
+#menu li:hover ul{
+    display: block;
+}
+#menu li ul a{ 
+    padding: 10px;
+  }
+#menu li ul li:hover{
+
+    padding: 10px 0px;
+    background-color: #86a8b8;
+
+  }

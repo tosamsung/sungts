@@ -1,0 +1,98 @@
+body{ 
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+
+}
+#main{
+    width: 700px;
+    margin: 0 auto;
+}
+#wrapper{
+ 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#wrapper img{
+    z-index: -1;
+    position: absolute;
+    height: 80%;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 8px 8px ;
+}
+#form-login{
+    max-width: 400px;
+    background: #0189c8b4;
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(170, 165, 119, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: #d6b78f;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #d6b78f;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.gioitinh{
+    border-bottom: 1px solid #d6b78f;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #d6b78f;
+    font-size: 20px;
+
+}
+
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f1f1f1;
+}
+.form-input::placeholder{
+    color: #d6b78f;
+}
+
+.form-submit{
+    background: transparent;
+    border: 1px solid #d6b78f;
+    color: #d6b78f;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit2{ position: relative;
+    top: 2px;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #d6b78f;
+    color: #d6b78f;
+    width: 600px;
+    text-transform: uppercase;
+    padding: 5px 50px;
+    transition: 0.25s ease-in-out;
+   
+}
+.form-submit:hover{
+    color: azure;
+    cursor: pointer;
+    border: 1px solid #f1be15;
+    background-color: #f1be15;
+    box-shadow: 6px 6px ;
+}
+.form-submit2:hover{
+    color: azure;
+    cursor: pointer;
+    border: 1px solid #f1be15;
+    background-color: #f1be15;
+    box-shadow: 6px 6px ;
+}
